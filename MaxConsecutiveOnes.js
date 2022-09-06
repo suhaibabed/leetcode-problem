@@ -14,6 +14,7 @@ var findMaxConsecutiveOnes = function (nums) {
     nums[i] === 0 ? (current = 0) : current++;
     if (current > largest) largest = current;
   }
-
   largest++;
 };
+
+console.log(findMaxConsecutiveOnes);
